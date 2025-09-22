@@ -13,7 +13,7 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 
 # Pin vLLM version for stability - 0.9.1 is latest stable as of 2024-07
 # FlashInfer provides optimized attention for better performance
-ARG VLLM_VERSION=0.9.1
+ARG VLLM_VERSION=0.10.2
 ARG CUDA_VERSION=cu121
 ARG TORCH_VERSION=torch2.3
 
